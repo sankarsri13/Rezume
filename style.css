@@ -1,0 +1,91 @@
+* {
+  margin: 0px;
+  border: 0px;
+}
+.wrapper {
+  height: 100vh;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-flow: row wrap;
+}
+.main {
+  font-family: "Sen", sans-serif;
+  font-size: 5em;
+  color: #00a8ff;
+  flex: 2;
+}
+.tag-line {
+  font-family: "Sen", sans-serif;
+  font-size: 2em;
+}
+.right-image {
+  text-align: center;
+}
+.fas,
+.far {
+  color: #00a8ff;
+  font-size: 2em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.fas:hover,
+.far:hover {
+  transform: scale(1.1);
+}
+
+input {
+  width: 70%;
+  height: 60px;
+  font-size: 1.5em;
+  margin: 20px;
+  border: 5px solid rgb(32, 32, 32);
+  border-radius: 50px;
+  padding: 10px;
+  outline: none;
+  transition: 0.2s;
+}
+input:hover {
+  box-shadow: 5px 10px 5px gray;
+}
+.fom {
+  text-align: center;
+}
+/*  */
+.top {
+  position: relative;
+  top: 0;
+}
+.wave {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 5vw;
+}
+.done {
+  background-color: #ffffff;
+  border: 2px solid #00a8ff;
+  color: #00a8ff;
+
+  margin: 10px;
+  min-width: 15%;
+  height: 30%;
+  padding: 20px;
+  font-family: "Sen", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+.done:hover {
+  background-color: #00a8ff;
+  cursor: pointer;
+  color: #ffffff;
+}
+.sub {
+  font-size: 2rem;
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/9096893298.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/9096893298.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <div class="fom">
+      <div class="top">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#0099ff"
+            fill-opacity="1"
+            d="M0,224L60,229.3C120,235,240,245,360,218.7C480,192,600,128,720,138.7C840,149,960,235,1080,261.3C1200,288,1320,256,1380,240L1440,224L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"
+          ></path>
+        </svg>
+        <h1 class="main wave">rezume.</h1>
+      </div>
+      <form action="">
+        <h1 class="main sub">personal details</h1>
+        <div>
+          <i class="far fa-user"></i>
+          <input type="text" placeholder="Enter your name" id="name" />
+        </div>
+        <div>
+          <i class="far fa-envelope"></i>
+          <input type="email" placeholder="Enter your email" id="email" />
+        </div>
+        <div>
+          <i class="fas fa-birthday-cake"></i>
+          <input
+            type="date"
+            placeholder="Enter your DOB(DD-MM-YYYY)"
+            id="dob"
+          />
+        </div>
+        <div>
+          <i class="fas fa-phone-alt"></i>
+          <input
+            type="number"
+            placeholder="Enter your mobile number"
+            id="mob"
+          />
+        </div>
+        <br />
+        <br />
+        <br />
+        <h1 class="main sub">educational qualifications</h1>
+        <div>
+          <i class="fas fa-school"></i>
+          <input type="text" placeholder="Enter your School Name" id="school" />
+        </div>
+        <div>
+          <i class="fas fa-code-branch"></i>
+          <input
+            type="text"
+            placeholder="Enter the specification(Science/Arts)"
+            id="school_spec"
+          />
+        </div>
+        <div>
+          <i class="fas fa-percentage"></i>
+          <input
+            type="number"
+            placeholder="Enter your percentage"
+            id="percentage1"
+          />
+        </div>
+        <div>
+          <i class="fas fa-graduation-cap"></i>
+          <input
+            type="text"
+            placeholder="Enter your University/College name"
+            id="university"
+          />
+        </div>
+        <div>
+          <i class="fas fa-code-branch"></i>
+          <input
+            type="text"
+            placeholder="Enter the course(BE/BTECH/..) & specification(CSE/EEE/CA/BSc/..)"
+            id="clg_spec"
+          />
+        </div>
+        <div>
+          <i class="fas fa-percentage"></i>
+          <input
+            type="number"
+            placeholder="Enter your percentage"
+            id="percentage2"
+          />
+        </div>
+        <br />
+        <br />
+        <br />
+        <h1 class="main sub">experience</h1>
+        <div>
+          <i class="fas fa-building"></i>
+          <input type="text" placeholder="Company 1" id="comp1" />
+        </div>
+        <div>
+          <i class="fas fa-user-tag"></i>
+          <input type="text" placeholder="Role" id="rol1" />
+        </div>
+        <div>
+          <i class="fas fa-layer-group"></i>
+          <input type="number" placeholder="Years worked" id="year1" />
+        </div>
+        <div>
+          <i class="fas fa-building"></i>
+          <input type="text" placeholder="Company 2" id="comp2" />
+        </div>
+        <div>
+          <i class="fas fa-user-tag"></i>
+          <input type="text" placeholder="Role" id="rol2" />
+        </div>
+        <div>
+          <i class="fas fa-layer-group"></i>
+          <input type="number" placeholder="Years worked" id="year2" />
+        </div>
+        <br />
+        <br />
+        <br />
+        <h1 class="main sub">technical skills</h1>
+        <div>
+          <i class="fas fa-file-code"></i>
+          <input
+            type="text"
+            placeholder="Enter programming languages known (seperated by commma)"
+            id="pro_lang"
+          />
+        </div>
+        <div>
+          <i class="fas fa-laptop-code"></i>
+          <input
+            type="text"
+            placeholder="Enter softwares known to use (seperated by comma)"
+            id="soft"
+          />
+        </div>
+      </form>
+      <button class="done" id="submit-btn" onclick="display()">
+        Submit
+      </button>
+    </div>
+  </body>
+</html>
